@@ -33,15 +33,13 @@ All apps are free.
   1. community editing [good](http://wiki.openstreetmap.org/wiki/Good_practice) [practice](http://wiki.openstreetmap.org/wiki/Editing_Standards_and_Conventions)
   1. learn about how to use tags with [taginfo](http://taginfo.openstreetmap.org/) and the [wiki](http://wiki.openstreetmap.org/wiki/Highway_tagging_samples)
   1. basic rules
+    1. "Go outside and map!"
     1. "be bold" - but . . . 
     1. "map what's on the ground"
-    1. only map what is verifiable: "another mapper should be able to come to the same place and collect the same data"
+    1. only map what is verifiable
     1. nothing that *used* to exist, only things that exist *now*
-      1. check out openhistoricalmap.org if you want stuff that used to be there but isn't anymore
     1. one feature per OSM element
-      1. for example, a given restaurant appears exactly once, as it verifiably appears on the ground. A building footprint is good, but it should not also have a centroid feature with the name on top of its building footprint.
     1. if something changes, edit the geometry and/or attributes of an existing feature to reflect that change.
-      1. for example, if a pizza place closes and reopens as a sushi place, don't delete the feature but change its attributes
     1. It is best to map in person with a GPS. Aerial imagery is often deceitful because . . .
       1. it may suffer from position error greater than that of GPS
       1. imagery is often old.  The world changes and OSM should be up to date.
