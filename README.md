@@ -30,7 +30,20 @@ All apps are free.
   1. start taking photos
   1. upload and check
 1. understand OSM community expectations
-  1. for [real](http://wiki.openstreetmap.org/wiki/Good_practice)
+  1. community editing [good](http://wiki.openstreetmap.org/wiki/Good_practice) [practice](http://wiki.openstreetmap.org/wiki/Editing_Standards_and_Conventions)
+  1. learn about how to use tags with [taginfo](http://taginfo.openstreetmap.org/) and the [wiki](http://wiki.openstreetmap.org/wiki/Highway_tagging_samples)
+  1. basic rules
+    1. "be bold" - but . . . 
+    1. "map what's on the ground"
+    1. only map what is verifiable: "another mapper should be able to come to the same place and collect the same data"
+    1. nothing that *used* to exist, only things that exist *now*
+      1. check out openhistoricalmap.org if you want stuff that used to be there but isn't anymore
+    1. one feature per OSM element
+      1. for example, a given restaurant appears exactly once, as it verifiably appears on the ground. A building footprint is good, but it should not also have a centroid feature with the name on top of its building footprint.
+    1. It is best to map in person with a GPS. Aerial imagery is often deceitful because . . .
+      1. it may suffer from position error greater than that of GPS
+      1. imagery is often old.  The world changes and OSM should be up to date.
+      1. building footprints have to be moved to the actual base of the building.  In other words, compensate for the angle at which the imagery was captured.
 1. [MapGive](http://mapgive.state.gov/) - contribute to OpenStreetMap (not mobile)
   1. take the iD editor [tutorial](http://ideditor.com/)
   1. go to http://mapgive.state.gov/
