@@ -29,18 +29,42 @@ All apps are free.
   1. get [Mapillary](http://mapillary.com/)
   1. start taking photos
   1. upload and check
-1. MapGive - contribute to OpenStreetMap (not mobile)
+1. understand OSM community expectations
+  1. for [real](http://wiki.openstreetmap.org/wiki/Good_practice)
+1. [MapGive](http://mapgive.state.gov/) - contribute to OpenStreetMap (not mobile)
   1. take the iD editor [tutorial](http://ideditor.com/)
   1. go to http://mapgive.state.gov/
   1. select a project
   1. use the HOT OSM tasking manager
-1. Vespucci - contribute to OpenStreetMap (mobile)
-  1. get Vespucci
+1. [OsmAnd](http://osmand.net/) or [Vespucci](http://wiki.openstreetmap.org/wiki/Vespucci) - contribute to OpenStreetMap (mobile)
+  1. get OsmAnd ( or Vespucci )
   1. go outside
   1. contribute to OSM
 1. offline web map tiles
-  1. OSMand
-  1. gvSIG mobile ( no download limit )
+  1. OsmAnd ( offline tile download limit )
+  1. gvSIG mobile ( no download limit! )
+1. get custom MBTiles on your phone!
+  1. get historical map or aerial photo of your area
+  1. georeference that map using control points in QGIS
+  1. use gdal2tiles.py on it to make a directory of web map tiles
+  1. use mbutil on output directory of tiles to make an MBTiles file
+  1. load MBTiles file into your phone and display in geopaparazzi
+  1. go outside and visit historical places using your custom web map tiles as context!
+  1. take photos of these places on Mapillary
+1. contribute to OpenHistoricalMap!
+  1. load the MBTiles of a historical map or aerial photo you made earlier for geopaparazzi
+  1. open JOSM
+  1. install the MBTiles plugin
+  1. load your own MBTiles file into JOSM ( alternate method is to load image directly )
+  1. change the API connection parameter to http://www.openhistoricalmap.org/api/ so we contribute to openhistoricalmap.org
+  1. start digitizing features like roads and buildings and provide tags using your MBTiles for context ( can be as simple as building=yes )
+  1. upload changes to OpenHistoricalMap!
+1. get custom SpatiaLite database into your phone!
+  1. in QGIS, convert the vector contributions you made to OpenHistoricalMap into a SpatiaLite database (just a single file with your layers!)
+  1. in geopaparazzi, load the MBTiles you made earlier of a historical map or aerial photo
+  1. in geopaparazzi, load the SpatiaLite database you just made of your OpenHistoricalMap contributions
+  1. go outside
+  1. as you explore, open Mapillary and take photos of places that have changed, for example buildings that are no longer there
 
 
 ### Resources
