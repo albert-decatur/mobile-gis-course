@@ -1,19 +1,50 @@
-# mobile-gis-course
+# GIS on your phone
 
 Your smartphone can do GIS!
 This course teaches you how.
 
-[But you need a smartphone]
+[you do need a smartphone - sorry!]
 
-Android or iOS are possible OSes, but Android is preferred.
+Android is preferred.
 All apps are free.
+
+
+### classes
+
+1. take back your data!
+  1. download your Google Location History at [Google Takeout](https://www.google.com/settings/takeout)
+  1. convert to GeoJSON
+  1. examine attributes, map 
+1. GPX art
+  1. go to [geojson.io](http://geojson.io/)
+  1. digitize and download a vector layer that you will walk along in real life
+  1. get [geopaparazzi](https://geopaparazzi.github.io/geopaparazzi/)
+  1. go outside
+  1. start recording GPS
+  1. walk the vector you digitized
+  1. stop recording GPS
+  1. export geojson from geopaparazzi
+  1. map both on [CartoDB](https://cartodb.com/) using torque
+1. crowdsource streetview
+  1. get [Mapillary](http://mapillary.com/)
+  1. start taking photos
+  1. upload and check
+1. MapGive - contribute to OpenStreetMap (not mobile)
+  1. take the iD editor [tutorial](http://ideditor.com/)
+  1. go to http://mapgive.state.gov/
+  1. select a project
+  1. use the HOT OSM tasking manager
+1. Vespucci - contribute to OpenStreetMap (mobile)
+  1. get Vespucci
+  1. go outside
+  1. contribute to OSM
 
 ### Resources
 
 
 #### mobile
 
-* [Mapillary](http://blog.mapillary.com/)
+* [Mapillary](http://mapillary.com/)
   * take geotagged photos to build an open source street view
 * [geopaparazzi](https://geopaparazzi.github.io/geopaparazzi/)
   * overlay your own . . .
