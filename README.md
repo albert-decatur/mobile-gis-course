@@ -40,6 +40,8 @@ All apps are free.
       1. check out openhistoricalmap.org if you want stuff that used to be there but isn't anymore
     1. one feature per OSM element
       1. for example, a given restaurant appears exactly once, as it verifiably appears on the ground. A building footprint is good, but it should not also have a centroid feature with the name on top of its building footprint.
+    1. if something changes, edit the geometry and/or attributes of an existing feature to reflect that change.
+      1. for example, if a pizza place closes and reopens as a sushi place, don't delete the feature but change its attributes
     1. It is best to map in person with a GPS. Aerial imagery is often deceitful because . . .
       1. it may suffer from position error greater than that of GPS
       1. imagery is often old.  The world changes and OSM should be up to date.
