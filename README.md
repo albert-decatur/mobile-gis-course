@@ -3,7 +3,8 @@
 Your smartphone can do GIS!
 This course teaches you how.
 
-[But you need a smartphone.]
+[But you need a smartphone]
+
 Android or iOS are possible OSes, but Android is preferred.
 All apps are free.
 
